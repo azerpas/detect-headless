@@ -1,7 +1,7 @@
 import { Td, Tr } from "@chakra-ui/react"
 import React from "react"
 
-export const Properties = () => {
+const Properties = () => {
     return(
         <>
             <Tr>
@@ -96,3 +96,5 @@ export const Properties = () => {
         </>
     )
 }
+
+export default Properties;

@@ -8,7 +8,12 @@ import {
 
 import { Container } from '../components/Container'
 import { DarkModeSwitch } from '../components/DarkModeSwitch'
-import { Properties } from "../components/Properties";
+import dynamic from "next/dynamic";
+
+const PropertiesDynamic = dynamic(
+    () => import("../components/Properties"), 
+    {ssr: false}
+)
 
 const Index = () => (
     <Container height="100vh">
@@ -20,7 +25,7 @@ const Index = () => (
                 </Tr>
             </Thead>
             <Tbody>
-                <Properties/>
+                <PropertiesDynamic/>
             </Tbody>
         </Table>
         <DarkModeSwitch />
