@@ -8,7 +8,7 @@ Created this page that compiles methods used by Akamai, Datadome, and other bot 
 
 ## To-do
 - ✅ Set-up Chakra
-- ❌ Deploy on Vercel
+- ✅ Deploy on Vercel
 
 ## Command To-do
 - ✅ `window.navigator.userAgent.replace(/\\|"/g, '')`
@@ -61,3 +61,7 @@ Created this page that compiles methods used by Akamai, Datadome, and other bot 
 - ❌ `window.sessionStorage`
 - ❌ `window.localStorage`
 - ❌ `window.indexedDB`
+
+## Features to-do
+- ❌ `Mouse movement detection`
+- ❌ `Uniquely identify HTTPS certificate`
