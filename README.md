@@ -1,6 +1,8 @@
 # Detect-Headless
 
-Created this page that compiles methods used by Akamai, Datadome, and other bot detection solutions and WAF (Web Application Firewall) to identify headless bots like Selenium, Puppeteer, Phantom...
+Created this page that compiles methods used by Akamai, Datadome, and other bot detection solutions and WAF (Web Application Firewall) to identify headless bots like Selenium, Puppeteer, Phantom...      
+
+For those who are looking for a far more final product, checkout this repo: https://github.com/ulixee/double-agent
 
 ## Set-up
 - `npm i` **or** `yarn install`
